@@ -1,12 +1,12 @@
-#include "helper.h" // Including the helper file so we get it's definitions
-#include <iostream> // Including iostream so we can input and output
+#include "helper.h" // Includes the helper.h header so that this file matches its function declarations
+#include <iostream> // Includes iostream so we can use std::cout for output
 
-    void showMessage()
-    {
-        std::cout << "Hello this is a message!" << '\n';
-    }
+void showMessage() // Defines the showMessage() function
+{
+    std::cout << "Hello this is a message!" << '\n'; // Prints a message followed by a newline
+}
 
-    int addition(int x, int y)
-    {
-		return x+y;
-    } 
+int addition(int x, int y) // Defines the addition() function that takes two integers
+{
+    return x + y; // Returns the sum of x and y
+}
